@@ -1,0 +1,40 @@
+/* 
+
+Barrera Ortiz Erick Daniel
+Grupo: 8190
+
+Actividad Complementaria 1
+
+Unidad 4. ImplantaciÃ³n de Algoritmos
+
+Instrucciones: Elabora un programa en lenguaje "C" de forma libre, en donde emplees alguna de las tres
+estructuras de control que menciona el teorema de la estructura
+
+Operadores if;
+ == igual que
+ != diferente que
+ 
+ Operadores de Relaciï¿½n;
+ 
+ >          Mayor que
+ <          Menor que
+ >=         Mayor o igual que
+ <=         Menor o igual que
+ 
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int calificacion;
+    printf("ingresa tu calificaciï¿½n del exï¿½men/n");
+    scan("%d",&calificacion);
+    if (calificacion >= 6)
+    {
+     printf("aprobaste/n");
+    } else {
+           printf("nos vemos en el exï¿½men final/n");
+           }
+    return 0;
+}
